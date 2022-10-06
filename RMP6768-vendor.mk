@@ -48,7 +48,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMP6768/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/realme/RMP6768/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/realme/RMP6768/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/realme/RMP6768/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+    vendor/realme/RMP6768/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/realme/RMP6768/proprietary/product/vendor_overlay/30/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
+    vendor/realme/RMP6768/proprietary/product/vendor_overlay/30/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
+    vendor/realme/RMP6768/proprietary/product/vendor_overlay/30/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
+    vendor/realme/RMP6768/proprietary/product/vendor_overlay/30/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
+    vendor/realme/RMP6768/proprietary/product/vendor_overlay/30/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 
 PRODUCT_PACKAGES += \
     ImsService \
