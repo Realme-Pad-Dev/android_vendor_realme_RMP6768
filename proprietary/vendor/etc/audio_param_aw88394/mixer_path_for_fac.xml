@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mixer>
+
+    <ctl name="I2S1_CH1 DL1_CH1" value="0" />
+    <ctl name="I2S1_CH2 DL1_CH2" value="0" />
+    <ctl name="aw_dev_0_switch" value="Enable" />
+    <ctl name="aw_dev_1_switch" value="Enable" />
+    <ctl name="aw_dev_2_switch" value="Enable" />
+    <ctl name="aw_dev_3_switch" value="Enable" />
+    <ctl name="aw_dev_0_prof" value="Music" />
+    <ctl name="aw_dev_1_prof" value="Music" />
+    <ctl name="aw_dev_2_prof" value="Music" />
+    <ctl name="aw_dev_3_prof" value="Music" />
+    <ctl name="UL1_CH1 ADDA_UL_CH1" value="0" />
+    <ctl name="UL1_CH2 ADDA_UL_CH2" value="0" />
+    <ctl name="Mic Type Mux" value="Idle" />
+    <ctl name="ADC L Mux" value="Idle" />
+    <ctl name="ADC R Mux" value="Idle" />
+    <ctl name="PGA L Mux" value="None" />
+    <ctl name="PGA R Mux" value="None" />
+	<!-- smartpa test -->
+	<path name="smartpa_test">
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_0_switch" value="Enable" />
+        <ctl name="aw_dev_1_switch" value="Enable" />
+        <ctl name="aw_dev_2_switch" value="Enable" />
+        <ctl name="aw_dev_3_switch" value="Enable" />
+        <ctl name="aw_dev_0_prof" value="Music" />
+        <ctl name="aw_dev_1_prof" value="Music" />
+        <ctl name="aw_dev_2_prof" value="Music" />
+        <ctl name="aw_dev_3_prof" value="Music" />
+	</path>
+
+	<!--ATA mode -->
+	<path name="reset_atadevice">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="0" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="0" />
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+        <ctl name="PGA R Mux" value="None" />
+        <ctl name="I2S1_CH1 DL1_CH1" value="0" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="0" />
+        <ctl name="aw_dev_0_switch" value="Enable" />
+        <ctl name="aw_dev_1_switch" value="Enable" />
+        <ctl name="aw_dev_2_switch" value="Enable" />
+        <ctl name="aw_dev_3_switch" value="Enable" />
+	</path>
+	<path name="ata_submic_prileftspeaker">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+        <ctl name="Mic Type Mux" value="ACC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN0" />
+        <ctl name="PGA R Mux" value="AIN0" />
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+
+	</path>
+	<path name="ata_submic_prirightspeaker">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+        <ctl name="Mic Type Mux" value="ACC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN0" />
+        <ctl name="PGA R Mux" value="AIN0" />
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+	</path>
+	<path name="ata_mainmic_secleftspeaker">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+        <ctl name="Mic Type Mux" value="ACC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN2" />
+        <ctl name="PGA R Mux" value="AIN2" />
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+	</path>
+	<path name="ata_mainmic_secrightspeaker">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+        <ctl name="Mic Type Mux" value="ACC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN2" />
+        <ctl name="PGA R Mux" value="AIN2" />
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+	</path>
+
+	<!--AT playback mode -->
+	<path name="reset_playdevice">
+        <ctl name="I2S1_CH1 DL1_CH1" value="0" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="0" />
+        <ctl name="aw_dev_0_switch" value="Enable" />
+        <ctl name="aw_dev_1_switch" value="Enable" />
+        <ctl name="aw_dev_2_switch" value="Enable" />
+        <ctl name="aw_dev_3_switch" value="Enable" />
+        <ctl name="aw_dev_0_prof" value="Music" />
+        <ctl name="aw_dev_1_prof" value="Music" />
+        <ctl name="aw_dev_2_prof" value="Music" />
+        <ctl name="aw_dev_3_prof" value="Music" />
+	</path>
+	<path name="audioloop_receiver">
+	</path>
+	<path name="audioloop_speaker">
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="audioloop_leftspeaker">
+
+	</path>
+	<path name="audioloop_rightspeaker">
+
+	</path>
+	<path name="audioloop_prileftspeaker">
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+        <ctl name="aw_dev_0_prof" value="Fm" />
+        <ctl name="aw_dev_1_prof" value="Fm" />
+        <ctl name="aw_dev_2_prof" value="Fm" />
+        <ctl name="aw_dev_3_prof" value="Fm" />
+	</path>
+	<path name="audioloop_secleftspeaker">
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+        <ctl name="aw_dev_0_prof" value="Fm" />
+        <ctl name="aw_dev_1_prof" value="Fm" />
+        <ctl name="aw_dev_2_prof" value="Fm" />
+        <ctl name="aw_dev_3_prof" value="Fm" />
+	</path>
+	<path name="audioloop_prirightspeaker">
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+        <ctl name="aw_dev_0_prof" value="Fm" />
+        <ctl name="aw_dev_1_prof" value="Fm" />
+        <ctl name="aw_dev_2_prof" value="Fm" />
+        <ctl name="aw_dev_3_prof" value="Fm" />
+	</path>
+	<path name="audioloop_secrightspeaker">
+        <ctl name="I2S1_CH1 DL1_CH1" value="1" />
+        <ctl name="I2S1_CH2 DL1_CH2" value="1" />
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_0_prof" value="Fm" />
+        <ctl name="aw_dev_1_prof" value="Fm" />
+        <ctl name="aw_dev_2_prof" value="Fm" />
+        <ctl name="aw_dev_3_prof" value="Fm" />
+	</path>
+	<!--AT record mode -->
+	<path name="reset_recorddevice">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="0" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="0" />
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+        <ctl name="PGA R Mux" value="None" />
+	</path>
+	<path name="audioloop_mic1">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+        <ctl name="Mic Type Mux" value="ACC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN0" />
+        <ctl name="PGA R Mux" value="AIN0" />
+	</path>
+	<path name="audioloop_mic2">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+        <ctl name="Mic Type Mux" value="ACC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN2" />
+        <ctl name="PGA R Mux" value="AIN2" />
+	</path>
+	<path name="audioloop_mic1mic2">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+        <ctl name="Mic Type Mux" value="ACC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN0" />
+        <ctl name="PGA R Mux" value="AIN2" />
+	</path>
+
+    <path name="reset_loopbackdevice">
+        <ctl name="aw_dev_0_switch" value="Enable" />
+        <ctl name="aw_dev_1_switch" value="Enable" />
+        <ctl name="aw_dev_2_switch" value="Enable" />
+        <ctl name="aw_dev_3_switch" value="Enable" />
+        <ctl name="aw_dev_0_prof" value="Music" />
+        <ctl name="aw_dev_1_prof" value="Music" />
+        <ctl name="aw_dev_2_prof" value="Music" />
+        <ctl name="aw_dev_3_prof" value="Music" />
+    </path>
+
+    <path name="audioloop_hsmic_prileftspeaker">
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+        <ctl name="aw_dev_0_prof" value="Fm" />
+        <ctl name="aw_dev_1_prof" value="Fm" />
+        <ctl name="aw_dev_2_prof" value="Fm" />
+        <ctl name="aw_dev_3_prof" value="Fm" />
+    </path>
+
+    <path name="audioloop_hsmic_secleftspeaker">
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+        <ctl name="aw_dev_0_prof" value="Fm" />
+        <ctl name="aw_dev_1_prof" value="Fm" />
+        <ctl name="aw_dev_2_prof" value="Fm" />
+        <ctl name="aw_dev_3_prof" value="Fm" />
+    </path>
+
+    <path name="audioloop_hsmic_prirightspeaker">
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+        <ctl name="aw_dev_0_prof" value="Fm" />
+        <ctl name="aw_dev_1_prof" value="Fm" />
+        <ctl name="aw_dev_2_prof" value="Fm" />
+        <ctl name="aw_dev_3_prof" value="Fm" />
+    </path>
+
+    <path name="audioloop_hsmic_secrightspeaker">
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_0_prof" value="Fm" />
+        <ctl name="aw_dev_1_prof" value="Fm" />
+        <ctl name="aw_dev_2_prof" value="Fm" />
+        <ctl name="aw_dev_3_prof" value="Fm" />
+    </path>
+
+    <path name="audioloop_hsmic_headphone">
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+    </path>
+
+    <path name="audioloop_mainmic_headphone">
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+    </path>
+
+    <path name="audioloop_submic_headphone">
+        <ctl name="aw_dev_0_switch" value="Disable" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_2_switch" value="Disable" />
+        <ctl name="aw_dev_3_switch" value="Disable" />
+    </path>
+ </mixer>
