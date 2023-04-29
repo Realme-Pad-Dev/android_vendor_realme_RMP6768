@@ -446,7 +446,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
-    vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
@@ -829,7 +828,6 @@ PRODUCT_PACKAGES += \
     libnvram_daemon_callback \
     libnvram_platform \
     libnvram_sec \
-    libnwk_opt_halwrap_vendor \
     liboemcrypto \
     libpixelflinger \
     libpq_cust_base \
@@ -875,7 +873,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
-    vendor.mediatek.hardware.nwk_opt@1.0 \
     vendor.mediatek.hardware.pq@2.0 \
     vendor.mediatek.hardware.pq@2.1 \
     vendor.mediatek.hardware.pq@2.2 \
@@ -1093,7 +1090,6 @@ PRODUCT_PACKAGES += \
     libwifi-hal-mtk \
     libwifitest \
     libmtkcam_streaminfo_plugin-p1stt \
-    nwk_opt_imp \
     vendor.mediatek.hardware.atci@1.0 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.frhandler@1.0 \
@@ -1178,7 +1174,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.5-service \
     vendor.mediatek.hardware.mtkcodecservice@1.1-service \
     vendor.mediatek.hardware.nvram@1.1-service \
-    vendor.mediatek.hardware.nwk_opt@1.0-service \
     vendor.mediatek.hardware.pq@2.2-service \
     vendor.trustonic.tee@1.1-service \
     vtservice_hidl \
