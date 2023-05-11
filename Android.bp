@@ -44,25 +44,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsysenv_system",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system/lib/libsysenv_system.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system/lib64/libsysenv_system.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libvcodec_cap",
 	owner: "realme",
 	strip: {
@@ -272,6 +253,22 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system/lib/libsource.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsysenv_system",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system/lib/libsysenv_system.so"],
 		},
 	},
 	compile_multilib: "32",
@@ -1316,26 +1313,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarmnn_ndk.mtk",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libarmnn_ndk.mtk.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libarmnn_ndk.mtk.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libaudio_param_parser-vnd",
 	owner: "realme",
 	strip: {
@@ -1896,26 +1873,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcmdl_ndk.mtk",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcmdl_ndk.mtk.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcmdl_ndk.mtk.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libcrypto-mdapp",
 	owner: "realme",
 	strip: {
@@ -2236,26 +2193,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgz_gp_client",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgz_gp_client.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgz_gp_client.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libgz_uree",
 	owner: "realme",
 	strip: {
@@ -2487,26 +2424,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libminiui.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmmprofile",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmmprofile.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmmprofile.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -2856,106 +2773,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libneuroeara",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libneuroeara.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libneuroeara.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libneuropilot_hal_utils",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libneuropilot_hal_utils.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libneuropilot_hal_utils.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libneuropilot_jni_R",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libneuropilot_jni_R.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libneuropilot_jni_R.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libnir_neon_driver",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libnir_neon_driver.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libnir_neon_driver.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libnir_neon_driver_ndk.mtk",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libnir_neon_driver_ndk.mtk.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libnir_neon_driver_ndk.mtk.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libnvram",
 	owner: "realme",
 	strip: {
@@ -3247,46 +3064,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsysenv.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libtflite_mtk",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libtflite_mtk.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libtflite_mtk.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libtflite_mtk_static_R",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libtflite_mtk_static_R.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libtflite_mtk_static_R.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -5325,23 +5102,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarmnn",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libarmnn.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libcam.feature_utils",
 	owner: "realme",
 	strip: {
@@ -5979,40 +5739,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcharon-ss.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libcmdl",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcmdl.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdlbdsservice",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libdlbdsservice.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -7416,40 +7142,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libneuron_adapter",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libneuron_adapter.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libneuron_platform",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libneuron_platform.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libratconfig",
 	owner: "realme",
 	strip: {
@@ -7748,23 +7440,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.dplanner@2.0",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.dplanner@2.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -8120,27 +7795,9 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-mtk-gpu",
-	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "manifest",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.mediatek.hardware.dplanner@2.0-service",
-	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.mediatek.hardware.dplanner@2.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -8300,66 +7957,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "dconfig",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/dconfig"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "dexecutor",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/dexecutor"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "doeapp-memtester",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/doeapp-memtester"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "doeapp-sat",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/doeapp-sat"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "dtc_vendor",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/dtc_vendor"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "epdg_wod",
 	owner: "realme",
 	srcs: ["proprietary/vendor/bin/epdg_wod"],
@@ -8472,19 +8069,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "android.hardware.neuralnetworks@1.3-service-mtk-neuron",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "android.hardware.secure_element@1.2-service-mediatek",
 	owner: "realme",
 	srcs: ["proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek"],
@@ -8524,19 +8108,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "android.hardware.usb@1.1-service-mediatek",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "camerahalserver",
 	owner: "realme",
 	srcs: ["proprietary/vendor/bin/hw/camerahalserver"],
@@ -8566,19 +8137,6 @@ cc_prebuilt_binary {
 	name: "vendor.mediatek.hardware.dfps@1.0-service",
 	owner: "realme",
 	srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "vendor.mediatek.hardware.dplanner@2.0-service",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service"],
 	check_elf_files: false,
 	strip: {
 		none: true,
@@ -8731,18 +8289,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "jpegtool",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/jpegtool"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "lbs_hidl_service",
 	owner: "realme",
 	srcs: ["proprietary/vendor/bin/lbs_hidl_service"],
@@ -8827,18 +8373,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "mrdump_tool",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/mrdump_tool"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "mtk_agpsd",
 	owner: "realme",
 	srcs: ["proprietary/vendor/bin/mtk_agpsd"],
@@ -8899,30 +8433,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "recordevent",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/recordevent"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "replayevent",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/replayevent"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "rttv",
 	owner: "realme",
 	srcs: ["proprietary/vendor/bin/rttv"],
@@ -8938,18 +8448,6 @@ cc_prebuilt_binary {
 	name: "starter",
 	owner: "realme",
 	srcs: ["proprietary/vendor/bin/starter"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "stp_dump3",
-	owner: "realme",
-	srcs: ["proprietary/vendor/bin/stp_dump3"],
 	check_elf_files: false,
 	strip: {
 		none: true,

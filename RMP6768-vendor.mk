@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMP6768/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/realme/RMP6768/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2117:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2117 \
     vendor/realme/RMP6768/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2117_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2117_ENUM \
-    vendor/realme/RMP6768/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
     vendor/realme/RMP6768/proprietary/vendor/etc/audio_param_aw88194a/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_aw88194a/AudioParamOptions.xml \
     vendor/realme/RMP6768/proprietary/vendor/etc/audio_param_aw88194a/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_aw88194a/BtInfo_AudioParam.xml \
     vendor/realme/RMP6768/proprietary/vendor/etc/audio_param_aw88194a/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_aw88194a/BtInfo_ParamUnitDesc.xml \
@@ -396,11 +395,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-mediatek.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc \
-    vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
-    vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
@@ -437,7 +434,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc \
-    vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.keyinstall@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keyinstall@1.0-service.rc \
     vendor/realme/RMP6768/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
@@ -466,10 +462,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMP6768/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
     vendor/realme/RMP6768/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/realme/RMP6768/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
-    vendor/realme/RMP6768/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
     vendor/realme/RMP6768/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/RMP6768/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
-    vendor/realme/RMP6768/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/realme/RMP6768/proprietary/vendor/etc/security/cacerts/00673b5b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/00673b5b.0 \
     vendor/realme/RMP6768/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
     vendor/realme/RMP6768/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
@@ -675,7 +669,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libmtk_vt_wrapper \
     libmtkavenhancements \
-    libsysenv_system \
     libvcodec_cap \
     libvcodec_capenc \
     libvsim-adaptor-client \
@@ -689,6 +682,7 @@ PRODUCT_PACKAGES += \
     libsignal \
     libsink \
     libsource \
+    libsysenv_system \
     libvt_avsync \
     libaptXHD_encoder \
     libaptX_encoder \
@@ -740,7 +734,6 @@ PRODUCT_PACKAGES += \
     libaal_mtk \
     libaalservice \
     libaedv \
-    libarmnn_ndk.mtk \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
@@ -769,7 +762,6 @@ PRODUCT_PACKAGES += \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
-    libcmdl_ndk.mtk \
     libcrypto-mdapp \
     libcurl-md \
     libcurl_xcap_md \
@@ -786,7 +778,6 @@ PRODUCT_PACKAGES += \
     libgralloc_extra \
     libgralloc_metadata \
     libgralloctypes_mtk \
-    libgz_gp_client \
     libgz_uree \
     libhevce_sb.ca7.android \
     libhwm \
@@ -799,7 +790,6 @@ PRODUCT_PACKAGES += \
     libjpeg-alpha_vendor \
     libladder \
     libminiui \
-    libmmprofile \
     libmnetlink_v104 \
     libmsbc_mtk \
     libmtcloader \
@@ -817,11 +807,6 @@ PRODUCT_PACKAGES += \
     libmtkrillog \
     libmtkshifter_vendor \
     libmtksysutils \
-    libneuroeara \
-    libneuropilot_hal_utils \
-    libneuropilot_jni_R \
-    libnir_neon_driver \
-    libnir_neon_driver_ndk.mtk \
     libnvram \
     libnvram_daemon_callback \
     libnvram_platform \
@@ -837,8 +822,6 @@ PRODUCT_PACKAGES += \
     libssl-mdapp \
     libstagefrighthw \
     libsysenv \
-    libtflite_mtk \
-    libtflite_mtk_static_R \
     libthha \
     libtlcWidevineModularDrm \
     libudf \
@@ -951,7 +934,6 @@ PRODUCT_PACKAGES += \
     lib_bsscore \
     libabfadp \
     libacdk \
-    libarmnn \
     libcam.feature_utils \
     libcam.hal3a.cctsvr \
     libcam.hal3a.log \
@@ -990,8 +972,6 @@ PRODUCT_PACKAGES += \
     libcameracustom.plugin \
     libcameracustom \
     libcharon-ss \
-    libcmdl \
-    libdlbdsservice \
     libeffecthal.base \
     libfeature.face \
     libfeature.stereo.provider \
@@ -1074,8 +1054,6 @@ PRODUCT_PACKAGES += \
     libmtkrilutils \
     libmtktinyxml \
     libmtkutils \
-    libneuron_adapter \
-    libneuron_platform \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
@@ -1094,7 +1072,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.lomoeffect@1.0 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
-    vendor.mediatek.hardware.dplanner@2.0 \
     vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.mdmonitor@1.0 \
     vendor.mediatek.hardware.mtkradioex@2.0 \
@@ -1123,9 +1100,7 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     mediatek-wfo-legacy \
-    android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     manifest \
-    vendor.mediatek.hardware.dplanner@2.0-service \
     iwpriv \
     kpoc_charger \
     vtservice \
@@ -1139,11 +1114,6 @@ PRODUCT_PACKAGES += \
     ccci_mdinit \
     ccci_rpcd \
     charon \
-    dconfig \
-    dexecutor \
-    doeapp-memtester \
-    doeapp-sat \
-    dtc_vendor \
     epdg_wod \
     factory \
     fuelgauged \
@@ -1153,15 +1123,12 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek \
     android.hardware.keymaster@4.0-service.trustonic \
-    android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.sensors@2.0-service-mediatek \
     android.hardware.thermal@2.0-service.mtk \
-    android.hardware.usb@1.1-service-mediatek \
     camerahalserver \
     mtkfusionrild \
     vendor.mediatek.hardware.dfps@1.0-service \
-    vendor.mediatek.hardware.dplanner@2.0-service \
     vendor.mediatek.hardware.gpu@1.0-service \
     vendor.mediatek.hardware.keyinstall@1.0-service \
     vendor.mediatek.hardware.keymaster_attestation@1.1-service \
@@ -1173,7 +1140,6 @@ PRODUCT_PACKAGES += \
     vtservice_hidl \
     wpa_supplicant \
     ipsec_mon \
-    jpegtool \
     lbs_hidl_service \
     lib3a.ccu.dm \
     lib3a.ccu.pm \
@@ -1181,17 +1147,13 @@ PRODUCT_PACKAGES += \
     md_monitor \
     md_monitor_ctrl \
     mnld \
-    mrdump_tool \
     mtk_agpsd \
     muxreport \
     netdagent \
     netdc \
     nvram_daemon \
-    recordevent \
-    replayevent \
     rttv \
     starter \
-    stp_dump3 \
     stroke \
     thermal \
     thermal_manager \
