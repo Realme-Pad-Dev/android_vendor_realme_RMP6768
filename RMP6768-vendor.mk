@@ -706,7 +706,6 @@ PRODUCT_PACKAGES += \
     kmsetkey.trustonic \
     libMcGatekeeper \
     libSoftGatekeeper \
-    memtrack.mt6768 \
     thermal.mt6768 \
     vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
