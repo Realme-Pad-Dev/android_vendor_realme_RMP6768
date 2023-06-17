@@ -684,8 +684,6 @@ PRODUCT_PACKAGES += \
     libsource \
     libsysenv_system \
     libvt_avsync \
-    libaptXHD_encoder \
-    libaptX_encoder \
     AVCSecureVdecCA \
     AVCSecureVencCA \
     VP9SecureVdecCA \

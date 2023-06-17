@@ -293,38 +293,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaptXHD_encoder",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/system/lib64/libaptXHD_encoder.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaptX_encoder",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/system/lib64/libaptX_encoder.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "AVCSecureVdecCA",
 	owner: "realme",
 	strip: {
